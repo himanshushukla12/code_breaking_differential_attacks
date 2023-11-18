@@ -19,21 +19,22 @@ This project consists of two main modules, designed for generating encryption ke
     - Run `keyGenUI.py` to open the Key Generator UI window.
     - In the Key Generator window, choose the encryption algorithm (DES, RSA, or Vigenere) from the drop-down menu.
     - Click on the "Generate Key" button to create the encryption key for the selected algorithm.
-    - Use the "Copy Key" button to copy the generated key to the clipboard, or click on "Save Key to the File" to save the key in a text file.
+    - Use the "Copy Key" button to copy the generated key to the clipboard, or click on "Save Key to the File" to save the key in a text file. and there will be a file names as 'key.txt' will save it.
 
 3. **Encryption:**
     - Run `CipherGenerationUI.py` to open the Encryption Tool UI window.
     - Input the plaintext you want to encrypt.
     - Select the same encryption algorithm from the drop-down menu as chosen in the Key Generator window.
     - Paste the copied key into the "Secret Key" text box.
-    - Click on the "Encrypt and Save" button to encrypt the plaintext and save the ciphertext. The plaintext, keys, and ciphertexts are saved in separate text files and displayed in the result box within the window.
+    - Click on the "Encrypt and Save" button to encrypt the plaintext and save the ciphertext. The plaintext, keys, and ciphertexts are saved in separate text files named as 'plainttext.txt' and 'ciphertext.txt' and displayed in the result box within the window.
 
 ### Module 2: Cryptanalysis
 
 4. **Cryptanalysis:**
     - Run `SecondModule.py` to open the Cryptanalysis UI window.
-    - Click on the "Open Cipher Texts and Plain Texts from Files" button to load the ciphertexts and plaintexts from their respective text files.
+    - Click on the "Open Cipher Texts and Plain Texts from Files" button to load the ciphertexts and plaintexts from `ciphertext.txt` and `plaintext.txt`.
     - Choose the encryption algorithm from the drop-down menu, the same one used in the first module.
+    - Note: for the `Vegnere Cipher` attack, We used `dictionary attach` where the disctionary of common english keywords is maintained in `dictionary.txt`.
     - Click on the "Decrypt and Show" button to perform cryptanalysis on the loaded ciphertexts. The decrypted plaintext will be displayed in the result box.
 
 5. **Frequency Analysis:**
