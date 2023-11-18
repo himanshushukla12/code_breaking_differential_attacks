@@ -40,3 +40,8 @@ This project consists of two main modules, designed for generating encryption ke
     - Frequency analysis graphs for the plaintext and ciphertext are generated and displayed in the Cryptanalysis UI window.
 
 This concludes the second module of the project, showcasing the complete workflow of the encryption and cryptanalysis processes.
+![Description of Image 1](https://raw.githubusercontent.com/himanshushukla12/code_breaking_differential_attacks/main/screenshot/Screenshot%202023-10-26%20132256.png)
+
+![Description of Image 2](https://raw.githubusercontent.com/himanshushukla12/code_breaking_differential_attacks/main/screenshot/cipher_generation.png)
+
+![Description of Image 3](https://raw.githubusercontent.com/himanshushukla12/code_breaking_differential_attacks/main/screenshot/key_generator.png)
