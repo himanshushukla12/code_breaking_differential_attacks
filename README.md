@@ -26,7 +26,7 @@ This project consists of two main modules, designed for generating encryption ke
     - Input the plaintext you want to encrypt.
     - Select the same encryption algorithm from the drop-down menu as chosen in the Key Generator window.
     - Paste the copied key into the "Secret Key" text box.
-    - Click on the "Encrypt and Save" button to encrypt the plaintext and save the ciphertext. The plaintext, keys, and ciphertexts are saved in separate text files named as 'plainttext.txt' and 'ciphertext.txt' and displayed in the result box within the window.
+    - Click on the "Encrypt and Save" button to encrypt the plaintext and save the ciphertext. The plaintext, keys, and ciphertexts are saved in separate text files named as `plainttext.txt` and `ciphertext.txt` and displayed in the result box within the window.
 
 ### Module 2: Cryptanalysis
 
